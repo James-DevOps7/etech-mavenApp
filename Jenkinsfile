@@ -27,10 +27,10 @@ pipeline {
     stage('sonarscanner'){
       steps{
       sh "mvn clean verify sonar:sonar \
-  -Dsonar.projectKey=team5codereview \
-  -Dsonar.projectName='team5codereview' \
-  -Dsonar.host.url=http://ec2-107-22-47-64.compute-1.amazonaws.com:9000 \
-  -Dsonar.token=sqp_0e5ca3fb66d661c1efd895d8370236860af9bfb6"
+  -Dsonar.projectKey=james1sonaqube \
+  -Dsonar.projectName='james1sonaqube' \
+  -Dsonar.host.url=http://44.203.40.32:9000 \
+  -Dsonar.token=sqp_ac0a977321b167f5f0097ca23e361b0eda2eb20d"
       }
     }
   }
